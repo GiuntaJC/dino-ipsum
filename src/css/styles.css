@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+body {
+  font-family: 'Modak', cursive;
+  background-image: url("./../assets/images/meadow.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgb(131, 205, 255);
+}
+
 h1 {
-  color: rgb(18, 82, 165);
+  color: rgb(15, 114, 20);
   text-align: center;
+  font-size: 500%;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-top: 25px;
+}
+
+div#output {
+  background-color: white;
+  border-radius: 15px;
 }

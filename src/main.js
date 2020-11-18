@@ -16,7 +16,6 @@ $(document).ready(function() {
       body.forEach((index) => {
         const finalOutput = index.join(" ");
         $("#output").append(finalOutput + "<br><br>");
-        // body[0][0]
       });
     }, function(error) {
       $("#output").text(`There was an error: ${error}`);
